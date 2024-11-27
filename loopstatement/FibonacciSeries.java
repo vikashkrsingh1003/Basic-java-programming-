@@ -7,7 +7,7 @@ class P1{
 	Scanner sk=new Scanner(System.in);
 	System.out.println("Enter Any No : ");
 	int n=sk.nextInt();//5
-	
+
 	int t1,t2,t3;
 	t1=0;
 	t2=1;
@@ -19,4 +19,4 @@ class P1{
 	t2=t3;
 	}
     }
-}
+}	
