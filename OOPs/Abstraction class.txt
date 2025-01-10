@@ -1,0 +1,55 @@
+// Abstraction class 
+
+  abstract Rgpv(){
+
+  System.out.println("This is Rgpv class constructor ");
+
+ }
+
+public abstract void lab();
+public abstract void cctv();
+
+public void copyCheck(){
+
+  System.out.println("This is copy check method in rgpv and class is not abstract  ");
+}
+}
+
+  class Collage extends Rgpv{
+
+   public Collage(){
+  System.out.println("This is Collage class constructor ");
+}
+
+ public void cctv(){
+
+System.out.println("This is Rgpv cctv method  ");
+}
+
+
+public void lab(){
+
+System.out.println("This is Rgpv lab method  ");
+}
+
+public void staff(){
+
+System.out.println("This is Rgpv staff method  ");
+}
+
+
+  public static void main(String args[]){ 
+
+ Rgpv r = new Collage ();
+r.cctv();
+r.lab();
+ }
+}
+
+
+  
+
+
+
+  
+  
