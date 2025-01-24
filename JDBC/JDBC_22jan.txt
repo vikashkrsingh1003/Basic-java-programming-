@@ -50,4 +50,3 @@ System.out.println("Data Insertion Fail");
     }
 }
 
-S
